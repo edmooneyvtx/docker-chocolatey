@@ -31,4 +31,3 @@ RUN echo "#!/bin/bash" >> /usr/bin/choco && \
     mkdir -p /opt/chocolatey/lib
 
 ENTRYPOINT ["/usr/bin/choco"]
-CMD ["-h"]
