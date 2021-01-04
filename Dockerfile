@@ -1,4 +1,5 @@
-FROM mono:3.12.1 as build
+FROM mono:6.12.0.107 as build
+
 
 ARG CHOCO_VERSION=stable
 
