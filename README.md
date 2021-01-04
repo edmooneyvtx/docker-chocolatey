@@ -7,7 +7,7 @@ Chocolatey docker LXC image to build packages.
 ## Usage
 
 ```bash
-docker run --rm -v pwd:pwd -w pwd thinkco/chocolatey
+docker run --rm -v "$(pwd)":"$(pwd)" -w . edmooney/chocolateytooling:latest
 ```
 
 ## Other
